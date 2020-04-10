@@ -12,3 +12,5 @@ emg_n = pd.read_csv(PATH +"/docs/EMG_train_semcrise.csv")
 for i in emg_n.loc[:,'path'].to_numpy():
     print(url + i.replace('tse','edf'))
 
+for i in emg_w.loc[:,'path'].to_numpy():
+    print(url + i.replace('tse','edf'))
